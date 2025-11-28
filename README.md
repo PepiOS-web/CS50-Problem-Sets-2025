@@ -176,3 +176,27 @@ Once fully evaluated, the final project will be added here with:
 - setup instructions  
 
 ---
+
+
+📬 Contact
+
+Martin García Suárez
+Computer Engineering Student – UNED
+CS50 Student – 2025 Edition
+
+LinkedIn: linkedin.com/in/martín-garcía-suarez-5a083227b
+GitHub: https://github.com/PepiOS-web
+Email: martin.garcia.suarez@gmail.com
+
+
+📢 Academic Honesty
+
+All solutions in this repository:
+
+Were written independently
+
+Have already been submitted and evaluated by CS50
+
+Are published after the corresponding deadlines, in accordance with CS50’s official policy
+
+Harvard CS50 allows students to share their work publicly once evaluated, including on GitHub.
