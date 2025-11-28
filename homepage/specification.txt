@@ -1,0 +1,54 @@
+HTML TAGS
+
+On my home page, I used more than 10 different HTML tags. Some examples are:
+
+- <html>, <head>, <title>, <meta> for the basic structure of the document.
+- <nav>, <header>, <main>, <footer> to organize the layout of each page.
+- <h1>, <h2>, <h3> for headings and section titles.
+- <p> for text paragraphs.
+- <ul>, <ol>, <li> for ordered and unordered lists (skills, projects, goals).
+- <a> for navigation links in the navigation bar and buttons that link to other pages.
+- <button> for the “Surprise Me” button.
+- <form>, <label>, <input>, <textarea> for the contact form.
+- <div> and <span> as generic containers to group and style content.
+- <small> within the footer for the copyright notice.
+
+
+CSS PROPERTIES
+
+In styles.css, I used many different CSS properties to design the site. Among them:
+
+- font-family to set the Montserrat font throughout the website.
+- background and background-color to create the dark gradient and solid backgrounds.
+- color to control the color of the text on the dark background.
+- margin and padding to add spacing around and within elements.
+- border and border-radius to style the cards and form fields.
+- box-shadow to give depth to the cards.
+- display and flex / flex-direction to create the page layout with a fixed footer.
+- text-align to center the text in the main section and footer.
+- letter-spacing and text-transform to style the section titles.
+- transition to animate the hover effect on cards.
+
+BOOTSTRAP
+
+I used Bootstrap 4.5.3 to simplify the layout and responsive components:
+
+- The navigation bar on all pages is based on the Bootstrap navigation bar, using classes such as
+navbar, navbar-expand-lg, navbar-dark, and container.
+- I used the grid system with the container, row, and col-md-* classes to align the
+  “About Me” and “Projects” cards on the index page and structure the contact form.
+- The buttons use Bootstrap button classes such as btn, btn-primary, and btn-lg.
+- Spacing utilities such as mt-5, mb-4, py-5, and others help control vertical spacing.
+
+JAVASCRIPT
+
+I used JavaScript in script.js to add interactivity:
+
+- On the home page, I listen for the DOMContentLoaded event and then select the
+  “Surprise Me” button and the paragraph below it. When the user clicks the
+  button, the script chooses a random piece of data from an array and dynamically updates the
+  text in the paragraph.
+- On the contact page, I attach a submit event listener to the contact form.
+  Instead of reloading the page, the script prevents the default behavior,
+  reads the name entered by the user, and displays a custom confirmation message
+  in a separate paragraph. The form is then reset.

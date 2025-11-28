@@ -1,0 +1,102 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    background: radial-gradient(circle at top, #1b264f, #050816);
+    color: #f5f5f5;
+}
+
+
+main {
+    flex: 1;
+    padding-bottom: 60px;
+}
+
+header {
+    background-color: #0f172a;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: radial-gradient(circle at top, #1b264f, #050816);
+    color: #f5f5f5;
+}
+
+.section-title {
+    margin-bottom: 20px;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.card-custom {
+    background-color: #111827;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    color: #f5f5f5;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#surprise-text {
+    font-style: italic;
+}
+
+.surprise-btn,
+.surprise-button {
+    display: block;
+    margin: 20px auto;
+}
+
+footer {
+    background-color: #020617;
+    color: #9ca3af;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 0;
+}
+
+.navbar-brand {
+    font-weight: 600;
+}
+
+.contact-wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+main h1,
+main h2,
+main p,
+main label {
+    color: #f5f5f5;
+}
+
+
+#contact-form input,
+#contact-form textarea {
+    background-color: #020617;
+    border: 1px solid #374151;
+    color: #f5f5f5;
+}
+
+#contact-form input::placeholder,
+#contact-form textarea::placeholder {
+    color: #6b7280;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+    outline: none;
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 0.2rem rgba(59, 130, 246, 0.35);
+}
