@@ -184,7 +184,7 @@ Martin García Suárez
 Computer Engineering Student – UNED
 CS50 Student – 2025 Edition
 
-- LinkedIn: linkedin.com/in/martín-garcía-suarez-5a083227b
+- LinkedIn: - LinkedIn: https://www.linkedin.com/in/mart%C3%ADn-garc%C3%ADa-suarez-5a083227b/
 - GitHub: https://github.com/PepiOS-web
 - Email: martin.garcia.suarez@gmail.com
 
