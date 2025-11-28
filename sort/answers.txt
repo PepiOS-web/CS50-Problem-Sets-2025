@@ -1,0 +1,21 @@
+sort1 uses: Bubble Sort
+
+How do you know?:   Performace is very fast on sorted
+                    input (exsits early), but grows dramatically
+                    on random and reversed inputs, showing O(n^2) behavior.
+                    #Can see time results on TIME.txt.
+
+sort2 uses: Merge Sort
+
+How do you know?:   It is consistently the fastest across all input
+                    orders, with similar times for sorted, random and
+                    reversed and scales much better than quadratic,
+                    consistent with O(n log n).
+                    #Can see time results on TIME.txt.
+
+sort3 uses: Selection Sort
+
+How do you know?:   Runtimes are similar regardless of input order but grow much
+                    more than sort2 as n increases, wich aligns with Selection Sorts O(n^2)
+                    and lack of best-case speedup.
+                    #Can see time results on TIME.txt.

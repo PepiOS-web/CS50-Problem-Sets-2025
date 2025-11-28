@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+        <script>
+            // TODO: Add code to check answers to questions
+            document.addEventListener("DOMContentLoaded", function() {
+            let correctButton = document.querySelector("#correct");
+
+            let incorrectButton1 = document.querySelectorAll("#incorrect1");
+
+            let feedback = document.querySelector("#feedback");
+
+            correctButton.addEventListener("click", function() {
+
+                correctButton.style.backgroundColor = "";
+
+                incorrectButton1.forEach(button => {
+                    button.style.backgroundColor = "";
+                });
+                this.style.backgroundColor = "green";
+                feedback.textContent = "Correct!";
+
+            });
+
+            incorrectButton1.forEach(button => {
+                button.addEventListener("click", function() {
+                    correctButton.style.backgroundColor = "";
+                    incorrectButton1.forEach(button => {
+                        button.style.backgroundColor = "";
+                    });
+                    this.style.backgroundColor = "red";
+                    feedback.textContent = "Incorrect. Try again!";
+                });
+            });
+
+            let input = document.querySelector("#free-response");
+            let checkButton = document.querySelector("#check-answer");
+            let feedback2 = document.querySelector("#feedback2");
+
+            checkButton.addEventListener("click", function() {
+                let answer = input.value.trim().toLowerCase();
+                if (answer === "h20") {
+                    input.style.backgroundColor = "green";
+                    feedback2.textContent = "Correct!";
+                } else {
+                    input.style.backgroundColor = "red";
+                    feedback2.textContent = "Incorrect. The correct answer is Paris.";
+                }
+            });
+        });
+        </script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <!-- TODO: Add multiple choice question here -->
+                <h3>Which planet is closest to the Sun?</h3>
+
+                <button id="correct">Mercury</button>
+                <button id="incorrect1">Venus</button>
+                <button id="incorrect1">Earth</button>
+                <button id="incorrect1">Mars</button>
+
+                <p id="feedback" class="feedback"></p>
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <!-- TODO: Add free response question here -->
+                <h3>What is the chemical formula for water?</h3>
+
+                <input type="text" id="free-response" placeholder="Your answer here">
+                <button id="check-answer">Check Answer</button>
+
+                <p id="feedback2" class="feedback"></p>
+            </div>
+        </div>
+    </body>
+</html>

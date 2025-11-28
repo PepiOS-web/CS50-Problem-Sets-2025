@@ -1,0 +1,13 @@
+If songs.db contains the top 100 songs of one listener from 2018, how would you characterize their audio aura?
+Hypothesize about why the way you’ve calculated this aura might not be very representative of the listener. What better ways of calculating this aura would you propose?
+
+Reflection: If the file songs.db contains the top 100 songs listened to by listeners in 2018,
+their audio aura could be described based on the average values for energy, valence, and danceability.
+For example, if most songs have high energy or danceability, their aura could appear lively, optimistic, and energetic.
+If, on the other hand, the songs have low energy and low valence, this could indicate a calmer, more introspective, or melancholic mood.
+Essentially, the combination of average values conveys a general impression of the emotional tone and rhythm that characterizes these listeners' musical tastes this year.
+However, this method of calculating an “audio aura” is not very representative. Averaging only three numerical characteristics can oversimplify a person's musical identity.
+A listener may like both sad and party songs equally, and the average would erase that contrast. Furthermore,
+the data set ignores lyrics, context, listening frequency over time, and mood associations, all of which influence how people experience music.
+Music is something so simple yet so complicated that it is difficult to analyze because the human factor of randomness comes into play.
+A better approach would be to combine audio characteristics with natural language analysis of lyrics, listening habits over the course of the year, and genre preferences.
